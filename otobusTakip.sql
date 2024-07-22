@@ -1,0 +1,12 @@
+insert into konfor (konfor_adi) values ('televizyon'),('rahat koltuk')
+insert into otobus (plaka,marka,koltuk_yerlesimi,yolcu_kapasite) values('34 TR 0031','Mercedes','2+1',50),('03 TR 0021','Mercedes','2+2',70)
+insert into otobuskonfor (konfor_id,otobus_id) values(1,1),(1,2),(2,1)
+insert into yolcu (tckimlikno,ad,soyad,cinsiyet) values ('12561657830','Ertuðrul','CANDAN',1),('12345679018','Çaðlar','ARAS',1),('12345678902','Beyza','ÇINAR',0)
+insert into personel (ad,soyad) values ('Veli','DENÝZCÝ'),('Melih','KAHRAMAN')
+insert into peron (peron_numarasi) values (9),(5),(1),(4),(13)
+insert into il (il_kodu,il_adi) values (01,'ADANA'),(03,'AFYONKARAHÝSAR'),(06,'ANKARA'),(34,'ÝSTANBUL'),(08,'BOLU'),(18,'ERZURUM'),(39,'KIRKLARELÝ')
+insert into sefer (sefer_no,kalkis_yeri,varis_yeri,fiyati,hareket_tarihi,yolculuk_suresi,peron_id,otobus_id) values 
+(25,39,03,190,'2022-01-13',12,4,1),(38,39,06,220,'2022-01-14',12,3,2),(44,39,18,240,'2022-01-14',18,5,2),(14,08,34,140,'2022-08-14',14,1,1)
+insert into bilet (sefer_id,yolcu_id,personel_id,koltukno,biletleme_tarihi) values (1,1,2,13,'2022-01-05'),(2,2,1,5,'2022-01-10')
+,(4,4,1,19,'2022-01-08'),(3,3,1,22,'2022-08-10')
+insert into yolcu (tckimlikno,ad,soyad,cinsiyet) values ('45678912358','Hamza','ATMACA',1)
